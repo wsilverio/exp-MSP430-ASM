@@ -1,7 +1,7 @@
 Autor: [twitter.com/obelonave](https://twitter.com/obelonave)
 Licenca: [CC-BY](http://creativecommons.org/licenses/)
 
-CPU: MSP430G2553
+CPU: MSP430G2553  
 Testado com simulador [IAR Embedded Workbench for TI MSP430 6.10](http://www.iar.com/Products/IAR-Embedded-Workbench/TI-MSP430/)
 
 
