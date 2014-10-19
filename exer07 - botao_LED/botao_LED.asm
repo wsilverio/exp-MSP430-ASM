@@ -9,8 +9,9 @@ ORG 0xFFFE      // vetor RESET
 DC16    main    // carrega o programa
 
 RSEG    CODE    // memoria de programa
-main:   mov.w   #WDTPW + WDTHOLD,   &WDTCTL // desabilita whatchdog
-        mov.w   #0x0400,    SP      // inicializa a pilha
+main:   
+    mov.w   #WDTPW + WDTHOLD,   &WDTCTL // desabilita whatchdog
+    mov.w   #0x0400,    SP      // inicializa a pilha
     
     mov.b   #0x41,      &P1DIR  // define os leds como saida [1] e o botao como entrada [0]: 0[1]00-[0]00[1]
     mov.b   #0x08,      &P1REN  // habilita o resistor pull-up no botao: 0000-[1]000
