@@ -7,8 +7,9 @@ Testado com simulador [IAR Embedded Workbench for TI MSP430 6.10](http://www.iar
 
 Referente a disciplina [TE124 - Microcontroladores](http://www.eletrica.ufpr.br/p/disciplinas:te124)  / Universidade Federal do Parana (2014/2)
 
-Exer 1 - enderecamentos
+##### Exer 1 - enderecamentos
 
+```
 Mover o valor 0x0240 para o Registrador R5 (0x0240 -> R5);
 Mover o valor 0x0250 para o Registrador R10 (0x0250 -> R10);
 Mover o valor 0x58 para o Registrador R12 (0x58 -> R12);
@@ -28,3 +29,4 @@ Somar 2 ao Registrador R10;
 Mover o conteudo do end. 0x0206 para o end. contido no Reg R5;
 Mover o conteudo da variavel var_3 para o end. contido no Reg R10;
 Mover o conteudo da variavel var_2 para o Registrador R15.
+```
