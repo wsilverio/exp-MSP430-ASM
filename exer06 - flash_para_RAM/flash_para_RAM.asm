@@ -27,7 +27,7 @@ fim:    jmp $
 
 /* 0x01 = fim da string
     OBS: 0x01 sempre ficara em um end PAR. Isso gerara um loop desnecessario quando a string tambem terminar em um end PAR,
-    pois entre eles ha um endereco IMPAR, comparado com @10 {**Colocar o fim da string demtro dela mesma?**}
+    pois entre eles ha um endereco IMPAR, comparado com @10 {**Colocar o fim da string dentro dela mesma?**}
 */
 nome:   DB "wsilverio - Universidade Federal do Parana", 0x01 // string e fim da string
     
